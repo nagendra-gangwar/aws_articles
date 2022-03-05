@@ -1,0 +1,8 @@
+Troubleshoot the Load Balancer 
+1-  Make sure you have listen configured for correct port.
+2-  Check the Network Security Group is allowing the port you have configured for listners.
+3-  Check the backend instance's network security groups allowing the port you have configured for forwarding. Also check the health check port if it is different.
+4-  Check the network ACLs of the VPC where your application hosted.
+5-  Check the rout table and see if the traffic is allowed from internet gateway.
+6-  Do telnet to the load balancer.
+7-  check load related issues.
