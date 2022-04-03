@@ -8,6 +8,10 @@
 
 /etc/ssh/sshd_config
 
+* Location of authorised keys
+
+~/.ssh/authorized_keys
+
 * check /etc/ssh/sshd_config or update for various options like password authentication setting, no password settings etc. 
 
 
