@@ -36,3 +36,13 @@ df -ha
 # disk space taken by all the dir
 
 du -sh <dir>
+
+# tail and head from a file
+
+  tail -n 3 abc/file1.txt
+  
+  head -n 2 abc/file1.txt
+  
+# forcefully kill the process
+  
+  kill -9 1234
