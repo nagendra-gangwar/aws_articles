@@ -46,3 +46,17 @@ du -sh <dir>
 # forcefully kill the process
   
   kill -9 1234
+  
+# network statistics
+  
+  netstat
+# find process by port 
+
+lsof -n -i :80 | grep LISTEN
+
+# find manual about any command
+
+man <command name>
+  
+man lsof
+ 
